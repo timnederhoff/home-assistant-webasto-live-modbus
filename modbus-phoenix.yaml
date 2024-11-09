@@ -138,8 +138,8 @@
       address: 124
       data_type: uint32
 
-    - name: Webasto_Live_Real_Power
-      unique_id: Webasto_Live_Real_Power
+    - name: Webasto_Live_Power_Factor
+      unique_id: Webasto_Live_Power_Factor
       slave: 255
       input_type: input
       precision: 0
