@@ -36,8 +36,7 @@
       slave: 255
       input_type: input
       address: 105
-      data_type: string
-      count: 50
+      data_type: uint32
       
     - name: Webasto_Live_L1_Voltage
       unique_id: Webasto_Live_L1_Voltage
@@ -149,7 +148,7 @@
     - name: Webasto_Live_Meter_Energy
       unique_id: Webasto_Live_Meter_Energy
       slave: 255
-      device_class: energy
+      device_class: total_increasing
       state_class: measurement
       unit_of_measurement: Wh
       input_type: input
@@ -172,7 +171,7 @@
       unique_id: Webasto_Live_Charged_Energy
       slave: 255
       device_class: energy
-      state_class: measurement
+      state_class: total
       unit_of_measurement: Wh
       input_type: input
       precision: 0
